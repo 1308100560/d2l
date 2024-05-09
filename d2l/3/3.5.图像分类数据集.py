@@ -75,4 +75,5 @@ def load_data_fashion_minst(batch_size, resize = None): #@save
                             num_workers = get_dataloader_workers()))
 
 
+
 breakpoint()
