@@ -74,6 +74,11 @@ def load_data_fashion_minst(batch_size, resize = None): #@save
             data.DataLoader(mnist_test, batch_size, shuffle = False,
                             num_workers = get_dataloader_workers()))
 
+train_iter, test_iter = load_data_fashion_minst(32, 64)
+for X, y in train_iter:
+    print(X.shape, X.dtype, y.shape, y.dtype)
+    break
+
 
 
 breakpoint()
