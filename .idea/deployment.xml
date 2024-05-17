@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="Always" serverName="xinyu@10.110.147.123:22 PyTorch" remoteFilesAllowedToDisappearOnAutoupload="false">
+  <component name="PublishConfigData" autoUpload="Always" serverName="xinyu@10.110.147.123:22 password" remoteFilesAllowedToDisappearOnAutoupload="false">
     <serverData>
       <paths name="xinyu@10.110.147.123:22 PyTorch">
         <serverdata>
@@ -9,7 +9,14 @@
           </mappings>
         </serverdata>
       </paths>
-      <paths name="xinyu@10.110.147.123:22 password (2)">
+      <paths name="xinyu@10.110.147.123:22 llm-examples">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/Userlist/xinyu/job/streamlit/llm-examples" local="$PROJECT_DIR$/../job/streamlit/llm-examples" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="xinyu@10.110.147.123:22 password">
         <serverdata>
           <mappings>
             <mapping deploy="/home/Userlist/xinyu/PyTorch" local="$PROJECT_DIR$" />
