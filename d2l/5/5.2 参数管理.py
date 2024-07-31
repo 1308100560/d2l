@@ -96,4 +96,3 @@ loss.backward()
 # 查看共享层的梯度
 print(shared.weight.grad)
 
-breakpoint()
