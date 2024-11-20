@@ -1,18 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="Always" serverName="root@183.136.156.2:60622 password (2)" remoteFilesAllowedToDisappearOnAutoupload="false">
+  <component name="PublishConfigData" autoUpload="Always" serverName="NBGY" remoteFilesAllowedToDisappearOnAutoupload="false">
     <serverData>
-      <paths name="root@183.136.156.2:60622 password">
+      <paths name="NBGY">
         <serverdata>
           <mappings>
-            <mapping deploy="/mnt/sdc/xinyu/PaddleNLP_train/d2l" local="$PROJECT_DIR$" web="/" />
-          </mappings>
-        </serverdata>
-      </paths>
-      <paths name="root@183.136.156.2:60622 password (2)">
-        <serverdata>
-          <mappings>
-            <mapping deploy="/mnt/sdc/xinyu/PaddleNLP_train/d2l" local="$PROJECT_DIR$" />
+            <mapping deploy="/mnt/sdc/xy/NBGY" local="$PROJECT_DIR$/../../NBGY" web="/" />
+            <mapping deploy="/mnt/sdc/xy/d2l" local="$PROJECT_DIR$/.." />
           </mappings>
         </serverdata>
       </paths>
