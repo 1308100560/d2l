@@ -11,4 +11,5 @@ print(F.one_hot(torch.tensor([0, 2]), len(vocab)))
 
 X = torch.arange(10).reshape(2, 5)
 print(F.one_hot(X.T, 28).shape)
+
 breakpoint()
